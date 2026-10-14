@@ -2,17 +2,17 @@
 
 Code and Aggregate Reproducibility Materials by **Taeryeong Kim**, Gyeongin National University of Education.
 
-## Current version: 1.0.1
+## Current version: 1.0.2
 
-Permanent version archive: [Zenodo DOI 10.5281/zenodo.23345003](https://doi.org/10.5281/zenodo.23345003).
+Permanent version archive: [Zenodo DOI 10.5281/zenodo.23354049](https://doi.org/10.5281/zenodo.23354049).
 
-Download [paper1-rubric-scaling-v1.0.1.zip](paper1-rubric-scaling-v1.0.1.zip), **extract it**, and run the commands below from the extracted directory. The complete source tree is inside the ZIP, not at this repository root. Its SHA-256 is:
+Download [paper1-rubric-scaling-v1.0.2.zip](paper1-rubric-scaling-v1.0.2.zip), **extract it**, and run the commands below from the extracted directory. The complete source tree is inside the ZIP, not at this repository root. Its SHA-256 is:
 
 ```
-f019f06f69693958ab56fa0cbf065b1f7f5d154e1b69994a2007375b024f9430
+c4214936de86c8a071da4bd6e8ef316fc6178b113477d27b6a618075d462b47b
 ```
 
-Version 1.0.1 is a documentation-only revision. It aligns the title, citation metadata, README, provenance and Supplementary Methods S1 with the final submission. The [S1 PDF](Paper1_Applied_Sciences_Supplement_S1_20261013.pdf) is identical to the submission supplement. All 38 pre-existing files outside the six documentation/metadata/manifest files are byte-identical to v1.0.0, including all code, frozen configurations, aggregate data, expected outputs and licenses. No new inference or analysis was performed. The manuscript and cover letter are not publicly included. See [CHANGELOG.md](CHANGELOG.md).
+Version 1.0.2 is a documentation-only bibliography revision. It aligns the main manuscript and Supplementary Methods S1 to 33 references, adds the related 2026 Huang–Palermo–Wilson journal study while retaining the 2025 conference predecessor, and corrects author initials and proceedings/book details. The [S1 PDF](Paper1_Applied_Sciences_Supplement_S1_20261014.pdf) matches the submission supplement; [REFERENCES.txt](REFERENCES.txt) reproduces the complete matching bibliography. All 38 scientific payload files (code, frozen configurations, aggregate data, expected outputs, and licenses) are byte-identical to v1.0.1. Numerical findings and qualified ethics wording are unchanged. No new inference or analysis was performed. The manuscript and cover letter remain private. See [CHANGELOG.md](CHANGELOG.md).
 
 ## Offline aggregate replay
 
@@ -26,7 +26,7 @@ python reproduce_review.py
 python -m unittest discover -s scripts -p "test_paper1*.py"
 ```
 
-The v1.0.1 ZIP passed all **28 synthetic tests**, all **45 packaged-file checksums**, and offline replay of **six tables, two figures, and noninferiority sensitivity**. Once dependencies are installed, these commands require no network, API key, GPU or student data. They do not execute archived inference modules, some of which can make paid calls when separately configured.
+The v1.0.2 ZIP passed all **28 synthetic tests**, all **46 packaged-file checksums**, and offline replay of **six tables, two figures, and noninferiority sensitivity**. Once dependencies are installed, these commands require no network, API key, GPU or student data. They do not execute archived inference modules, some of which can make paid calls when separately configured.
 
 ## Reproducibility boundaries and data protection
 
@@ -40,4 +40,6 @@ On 13 October 2026, the author stated that existing exemption P01-202605-01-076 
 
 Use [CITATION.cff](CITATION.cff) to cite the version DOI. Author-owned code is MIT; author-owned documentation and aggregate materials are CC BY 4.0. Licenses are file-scoped, and no third-party rights are granted. See the ZIP's license notices. Substantial AI assistance and its documentation limitations are disclosed; the human author retains responsibility.
 
-Version 1.0.0 remains preserved in this repository and at [its version DOI](https://doi.org/10.5281/zenodo.23322382). The [concept DOI](https://doi.org/10.5281/zenodo.23322381) represents all versions. Use the specific v1.0.1 DOI when citing the materials accompanying the current submission.
+Version 1.0.0 remains preserved in this repository and at [its version DOI](https://doi.org/10.5281/zenodo.23322382). The [concept DOI](https://doi.org/10.5281/zenodo.23322381) represents all versions. Use the specific v1.0.2 DOI when citing the materials accompanying the current submission.
+
+Version 1.0.1 is also preserved in this repository and at https://doi.org/10.5281/zenodo.23345003. Earlier dated S1 files belong to their corresponding preserved releases; use the 20261014 S1 for version 1.0.2.

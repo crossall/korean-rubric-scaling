@@ -1,5 +1,14 @@
 # Release notes
 
+## 1.0.2 — 14 October 2026
+
+Documentation-only bibliography alignment. Added the related 2026 journal study while retaining its 2025 conference predecessor; corrected author initials and proceedings/book details. Matched S1 citation labels to the 33-entry manuscript bibliography and added REFERENCES.txt. Code, frozen configurations, aggregate data, expected outputs, licenses, numerical results, and qualified ethics wording are unchanged. The manuscript and cover letter are not part of this public archive.
+
+Version DOI: https://doi.org/10.5281/zenodo.23354049
+Previous version: https://doi.org/10.5281/zenodo.23345003
+Concept DOI: https://doi.org/10.5281/zenodo.23322381
+
+
 ## 1.0.1 — 14 October 2026
 
 Documentation-only alignment with the approved manuscript, *Criterion-Dependent Associations between Qwen3 Model Size and Zero-Shot Scoring of Korean Constructed Responses*.

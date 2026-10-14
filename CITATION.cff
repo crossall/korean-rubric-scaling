@@ -1,15 +1,30 @@
-cff-version: 1.2.0
-message: "Please cite the version DOI when using these computational materials."
-type: software
-title: "Criterion-Dependent Associations between Qwen3 Model Size and Zero-Shot Scoring of Korean Constructed Responses — Code and Aggregate Reproducibility Materials"
-authors:
-  - family-names: Kim
-    given-names: Taeryeong
-    affiliation: Gyeongin National University of Education
-version: 1.0.1
-date-released: 2026-10-14
-doi: 10.5281/zenodo.23345003
-repository-code: https://github.com/crossall/korean-rubric-scaling
-license:
-  - MIT
-  - CC-BY-4.0
+cff-version: 1.2.0
+
+message: "Please cite the version DOI when using these computational materials."
+
+type: software
+
+title: "Criterion-Dependent Associations between Qwen3 Model Size and Zero-Shot Scoring of Korean Constructed Responses — Code and Aggregate Reproducibility Materials"
+
+authors:
+
+  - family-names: Kim
+
+    given-names: Taeryeong
+
+    affiliation: Gyeongin National University of Education
+
+version: 1.0.2
+
+date-released: 2026-10-14
+
+doi: 10.5281/zenodo.23354049
+
+repository-code: https://github.com/crossall/korean-rubric-scaling
+
+license:
+
+  - MIT
+
+  - CC-BY-4.0
+
